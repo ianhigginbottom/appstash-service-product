@@ -5,6 +5,9 @@ owner: "backend@meshlab.de"
 description: "Product service"
 vcsroot: "https://travis-ci.org/ianhigginbottom/appstash-service-product/"
 lifecycle: production
+relations:
+ - relToParent:
+    - test 
 tags:
   - PIVIO
   - Java10
